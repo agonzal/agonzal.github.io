@@ -12,12 +12,12 @@
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Courier New';
 }
 
 header {
 	height: 140px;
-	background-color: #292827;
+	background-color: #000000;
 
 }
 
@@ -32,7 +32,7 @@ header {
 }
 
 header h2 {
-	font-family: Luminari, fantasy;
+	font-family: 'Luminari';
 	color: #e3e1dc;
 	margin: 0px;
 	font-size: 18px;
@@ -40,7 +40,7 @@ header h2 {
 }
 
 footer {
-	background-color: #292827;
+	background-color: #000000;
 
 
 }
@@ -61,10 +61,10 @@ h1, h2, h3 {
 
 h1 { font-size: 28px; }
 h2 {
-  font-family: Courier New, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 26px;
  }
-h3 { font-size: 18px; }
+h3 { font-size: 20px; }
 
 p, li {
  font-family: 'Montserrat', sans-serif;
@@ -72,9 +72,6 @@ p, li {
  margin-bottom: 0;
 }
 
-a {
-	font-weight: 700;
-	text-decoration: none;
 }
 a:link { color: #033127; }
 a:visited { color: #0ac49b; }
@@ -98,7 +95,7 @@ footer p {
 
 /* -------  Elements ------- */
 
-img, iframe {
+img {
   border-radius: 50%;
   }
 
