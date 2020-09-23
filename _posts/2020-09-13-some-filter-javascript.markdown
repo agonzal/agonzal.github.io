@@ -1,5 +1,5 @@
 ---
-title:  "some() , filer() , includes() in javascript"
+title:  "some() , filter() , includes() in javascript"
 date:   2020-09-13 22:04:23
 categories: [javascript]
 tags: [javascript]
