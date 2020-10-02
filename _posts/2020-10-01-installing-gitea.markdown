@@ -336,4 +336,4 @@ Some other configuration options to look at for future consideration are:
 3. ENABLE_CAPTCHA
 ```
 
-Check out the [cheat-sheet for Gitea](https://docs.gitea.io/en-us/config-cheat-sheet/). There are a few other options I may look into enabling or disabling but for now, the system is at a point where I am comfortable creating repos and pushing code to the site. For a small added bonus, a small automation script to tie it all together.
+Check out the [cheat-sheet for Gitea](https://docs.gitea.io/en-us/config-cheat-sheet/). There are a few other options I may look into enabling or disabling but for now, the system is at a point where I am comfortable creating repos and pushing code to the site. 
