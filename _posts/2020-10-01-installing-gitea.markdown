@@ -1,5 +1,5 @@
 ---
-title:  "Installing Gitea on Ubuntu"
+title:  "Gitea on Ubuntu"
 date:   2020-10-01 16:30:00
 categories: [gitea, ubuntu, nginx, letsencrypt]
 tags: [gitea, ubuntu, nginx, letsencrypt]
@@ -119,7 +119,7 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 
 Add the following lines to the config file, save and exit.
-
+or a small added bonus, a small automation script to tie it all together.
 {% highlight console %}
 innodb_file_format = Barracuda
 innodb_large_prefix = 1
@@ -336,4 +336,4 @@ Some other configuration options to look at for future consideration are:
 3. ENABLE_CAPTCHA
 ```
 
-Check out the [cheat-sheet for Gitea](https://docs.gitea.io/en-us/config-cheat-sheet/). There are a few other options I may look into enabling or disabling but for now, the system is at a point where I am comfortable creating repos and pushing code to the site. 
+Check out the [cheat-sheet for Gitea](https://docs.gitea.io/en-us/config-cheat-sheet/). There are a few other options I may look into enabling or disabling but for now, the system is at a point where I am comfortable creating repos and pushing code to the site.
