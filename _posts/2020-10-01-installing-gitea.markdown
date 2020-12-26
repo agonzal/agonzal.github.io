@@ -1,11 +1,11 @@
 ---
 title:  "Gitea on Ubuntu"
 date:   2020-10-01 16:30:00
-categories: [gitea, ubuntu, nginx, letsencrypt]
-tags: [gitea, ubuntu, nginx, letsencrypt]
+categories: [gitea]
+tags: [gitea, letsencrypt, nginx, mariadb, iredadmin]
 ---
 
-Through collaboration the need for a private/self-hosted GIT installation arose. After some looking around, I ended up choosing Gitea as it aims to be a painless way for setting up a self-hosted Git service. It is written in Go and distributed as a binary that is cross-platform. I came across several guides to ease the installation process and ended up using some bits of each and some additions of my own. The final product looked like:
+Through collaboration the need for a private/self-hosted GIT installation arose. After some looking around, I ended up choosing Gitea as it aims to be a painless way for setting up a self-hosted Git service. It is written in Go and distributed as a binary that is cross-platform. I came across several guides to ease the installation process and ended up using some bits of each and some additions of my own. The final product looks like:
 
 1. Gitea: 1.12.4
 2. MariaDB: 15.1
