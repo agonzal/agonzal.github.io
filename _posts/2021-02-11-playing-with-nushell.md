@@ -1,4 +1,4 @@
----
+overflo---
 title: "Playing with Nushell"
 date: 2021-02-11  16:32:00
 categories: [nushell, rust, command line-fu]
@@ -295,5 +295,5 @@ Not only were we able to flip columns and rows but instead of using the default 
 
 ![nu-shell-graph](/images/nushell/nu-plugin-chart.jpg)
 
-there are too many features to dive into just for this post and I feel like we have been able to show some strengths that nushell brings. It will be nice when `frmm url` can handle 'text/javascript', but as of right now it cannot. I did not really play with the `post` plugin, but if you do, reach out and let me know! Even though nushell is still in its infancy, currently has a lot to offer and the future is bright. While it would take a lot to move me away from my current zsh setup, none the less I will be using it often since I do like the way it formats stdout into structured tables, allowing for quick analysis and parsing. 
+there are too many features to dive into just for this post and I feel like we have been able to show some strengths that nushell brings. It will be nice when `from url` can handle 'text/javascript', but as of right now it cannot. I did not really play with the `post` plugin, but if you do, reach out and let me know! Even though nushell is still in its infancy, currently has a lot to offer and the future is bright. While it would take a lot to move me away from my current zsh setup, none the less I will be using it often since I do like the way it formats stdout into structured tables, allowing for quick analysis and parsing. 
 
