@@ -7,7 +7,7 @@ tags: [javascript]
 
 I have begun learning javascript. This skill will prove useful in merging with my security experience. Like almost everyone, you learn about variables, working with objects and arrays. This will focus on the latter. The task was multifaceted, but the first task was to create a function that counts the correct answers in the submissions array. This was straight forward enough.
 
-{% highlight js linenos %}
+{% highlight js %}
 
 function countCorrectQuestions(submissions) {
   let correctSubmissions = 0;
@@ -25,7 +25,7 @@ A simple *for* loop starting at zero, to loop through each entry in the array an
 
 Moving on to the next task at hand, I had to create a function that takes an array and a boolean value as arguments. This function would check the submissions array element *isEassyQuestion* against the argument passed to the function. I had to return an array of all the submissions of that appropiate type. Initially, since we had covered mainly for loops when dealing with arrays, I tried that.
 
-{% highlight js linenos %}
+{% highlight js %}
 
 let trueEssay = [];
 let falseEssay = [];
@@ -60,7 +60,7 @@ function filterQuestionsByType(submissions, essayquestion) {
  > The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
 
 
-{% highlight js linenos %}
+{% highlight js %}
 
 function checkForPlagiarism(submissions, string) {
   for ( let i = 0; i < submissions.length; i++) {

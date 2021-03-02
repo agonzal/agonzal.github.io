@@ -2,7 +2,7 @@
 ---
 @import "uno";
 @import "tables";
-@import "monokai";
+@import "github"; 
 
 /* Modifications */
 
@@ -10,11 +10,14 @@ pre.highlight,
 .highlight pre {
   padding: 10px;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
 pre.highlight code,
 .highlight pre code {
-  white-space: pre-wrap;
+  white-space: no-wrap;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .btn,

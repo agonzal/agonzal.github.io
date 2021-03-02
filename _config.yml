@@ -1,7 +1,7 @@
 # Site settings
 title: 'Albert Gonzalez'
-description: 'Defender. Father. Freelance Consultant. '
-url: 'http://agonzal.github.io'
+description: 'A hunting we will go...'
+url: 'http://hunt.revrse.sh/'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 #disqus_shortname: 'albgnz'
@@ -39,5 +39,9 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-plugins: ['jekyll-paginate']
+mermaid:
+  src: js/mermaid.js
+
+
+plugins: ['jekyll-paginate', "jekyll-mermaid"]
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
