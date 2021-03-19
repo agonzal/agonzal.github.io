@@ -1,4 +1,4 @@
-overflo---
+git staoverflo---
 title: "Playing with Nushell"
 date: 2021-02-11  16:32:00
 categories: [nushell, rust, command line-fu]
